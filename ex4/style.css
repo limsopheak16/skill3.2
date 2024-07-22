@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.container{
+    text-align: center;
+    font-size: 25px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 15px;
+    border: solid 1px black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height:500px;
+    gap: 10px;
+
+}
+.b{
+    flex: 3;
+    border: solid 1px black;
+}
+.c{
+    flex: 1;
+    border: solid 1px black;
+
+    
+}
+
+footer{
+    border: solid 1px black;
+    padding: 15px;
+ 
+}
+span{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.box{
+    padding: 50px 60px ;
+    border: solid 1px black;
+    height: 400px;
+
+}
